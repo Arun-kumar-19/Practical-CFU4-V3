@@ -1,0 +1,192 @@
+body {
+  font-family: "Space Mono", monospace;
+  background-color: hsl(217, 54%, 11%);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 100px 50px 20px 50px;
+}
+main {
+  display: flex;
+  gap: 20px;
+}
+.art-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.art-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.sec-4,
+.sec-5,
+.sec-6 {
+  margin-top: 50px;
+}
+
+.main-1,
+.main-2,
+.main-3,
+.main-4,
+.main-5,
+.main-6 {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  padding: 20px;
+  width: 200px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+.para-div {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+.equil-1 {
+  color: hsl(0, 0%, 100%);
+  padding: 10px 0px 0px 0px;
+}
+.equil-2 {
+  padding: 10px 0px;
+  color: hsl(215, 51%, 70%);
+
+  font-family: "space mono";
+}
+.clock-img {
+  margin-right: 30px;
+}
+.days-left {
+  display: flex;
+  /* justify-content: space-between; */
+  border-bottom: solid 1px;
+  border-color: hsl(215, 32%, 27%);
+  align-items: center;
+}
+.icon {
+  display: flex;
+}
+.eth {
+  margin-right: 40px;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  color: hsl(215, 51%, 70%);
+  margin-left: -20px;
+}
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.jules {
+  margin-left: 5%;
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+}
+
+.jules-para {
+  color: whitesmoke;
+  font-weight: 300;
+}
+.avatar {
+  display: flex;
+  font-size: small;
+  align-items: center;
+  justify-content: space;
+}
+
+.avatar-img {
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+/* Aside */
+
+.aside-main-1 {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 230px;
+  display: flex;
+}
+.aside-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-aside {
+  width: 170px;
+  border-radius: 8px;
+}
+
+.aside-left-div {
+  display: flex;
+}
+
+.icon-aside {
+  width: 11px;
+}
+
+.aside-left-para {
+  font-size: 11px;
+}
+
+.eth-aside {
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 15px;
+  color: hsl(178, 100%, 50%);
+}
+.aside-clock {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: hsl(215, 51%, 70%);
+}
+.aside-eq {
+  display: flex;
+  flex-direction: column;
+}
+.eq-1 {
+  color: hsl(0, 0%, 100%);
+
+  flex: 1;
+}
+.eq-2 {
+  color: hsl(215, 51%, 70%);
+  padding: 20px 0px;
+  flex: 1;
+}
+.aside-jules {
+  color: hsl(215, 51%, 70%);
+  font-size: 11px;
+  margin-left: 15px;
+}
+.aside-profile {
+  display: flex;
+  margin-top: 50px;
+}
+.aside-3429 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.aside-avatar-img {
+  width: 18%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 100%;
+}
